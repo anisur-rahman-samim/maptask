@@ -1,0 +1,27 @@
+name: maptask
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  permission_handler:
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  flutter_geocoder: ^0.2.2-nullsafety
+
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
